@@ -9,11 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "RCTBridgeModule.h"
 
-
-static NSString *const METHOD_FIELD = @"method";
-
-static NSString *const UPLOAD_URL_FIELD_NAME = @"uploadUrl";
-
 @interface RCTFileUploader : NSObject<RCTBridgeModule>
 
 @end
